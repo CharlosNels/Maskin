@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90D864B5-67E2-4DD3-9C74-3D3203993195}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Maskin</RootNamespace>
+    <AssemblyName>Maskin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CloseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CloseButton.Designer.cs">
+      <DependentUpon>CloseButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemArgs.cs" />
+    <Compile Include="MaskinCircleTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinCircleTrackBar.Designer.cs">
+      <DependentUpon>MaskinCircleTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinConfigButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinConfigButton.Designer.cs">
+      <DependentUpon>MaskinConfigButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaskinForm.Designer.cs">
+      <DependentUpon>MaskinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinItem.Designer.cs">
+      <DependentUpon>MaskinItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinLabel.Designer.cs">
+      <DependentUpon>MaskinLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinListBox.Designer.cs">
+      <DependentUpon>MaskinListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinListBoxItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinListBoxItem.Designer.cs">
+      <DependentUpon>MaskinListBoxItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinLyricsPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinLyricsPanel.Designer.cs">
+      <DependentUpon>MaskinLyricsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerLastButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerLastButton.Designer.cs">
+      <DependentUpon>MaskinPlayerLastButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerLoopButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerLoopButton.Designer.cs">
+      <DependentUpon>MaskinPlayerLoopButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerMiniButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerMiniButton.Designer.cs">
+      <DependentUpon>MaskinPlayerMiniButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerNextButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerNextButton.Designer.cs">
+      <DependentUpon>MaskinPlayerNextButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerPlayButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerPlayButton.Designer.cs">
+      <DependentUpon>MaskinPlayerPlayButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinPlayerVolumeButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinPlayerVolumeButton.Designer.cs">
+      <DependentUpon>MaskinPlayerVolumeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinProgressBar.Designer.cs">
+      <DependentUpon>MaskinProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinRadioButton.Designer.cs">
+      <DependentUpon>MaskinRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinTextBox.Designer.cs">
+      <DependentUpon>MaskinTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinTrackBar.Designer.cs">
+      <DependentUpon>MaskinTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskinVerticalTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskinVerticalTrackBar.Designer.cs">
+      <DependentUpon>MaskinVerticalTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaxButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaxButton.Designer.cs">
+      <DependentUpon>MaxButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MiniButton.Designer.cs">
+      <DependentUpon>MiniButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NativeData.cs" />
+    <Compile Include="PlayerButtonAppearance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SearchButton.Designer.cs">
+      <DependentUpon>SearchButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextButton.Designer.cs">
+      <DependentUpon>TextButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MaskinForm.resx">
+      <DependentUpon>MaskinForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

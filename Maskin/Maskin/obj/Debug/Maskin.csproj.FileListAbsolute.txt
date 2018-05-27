@@ -1,0 +1,30 @@
+c:\users\14162\documents\visual studio 2015\Projects\Maskin\Maskin\bin\Debug\Maskin.dll
+c:\users\14162\documents\visual studio 2015\Projects\Maskin\Maskin\bin\Debug\Maskin.pdb
+c:\users\14162\documents\visual studio 2015\Projects\Maskin\Maskin\obj\Debug\Maskin.dll
+c:\users\14162\documents\visual studio 2015\Projects\Maskin\Maskin\obj\Debug\Maskin.pdb
+C:\Users\14162\Documents\Visual Studio 2015\Projects\Maskin\Maskin\obj\Debug\Maskin.csprojResolveAssemblyReference.cache
+C:\Users\14162\Documents\Visual Studio 2015\Projects\Maskin\Maskin\obj\Debug\Maskin.MaskinForm.resources
+C:\Users\14162\Documents\Visual Studio 2015\Projects\Maskin\Maskin\obj\Debug\Maskin.csproj.GenerateResource.Cache
+D:\MyProjects\Maskin\Maskin\bin\Debug\Maskin.dll
+D:\MyProjects\Maskin\Maskin\bin\Debug\Maskin.pdb
+D:\MyProjects\Maskin\Maskin\obj\Debug\Maskin.csprojResolveAssemblyReference.cache
+D:\MyProjects\Maskin\Maskin\obj\Debug\Maskin.MaskinForm.resources
+D:\MyProjects\Maskin\Maskin\obj\Debug\Maskin.csproj.GenerateResource.Cache
+D:\MyProjects\Maskin\Maskin\obj\Debug\Maskin.dll
+D:\MyProjects\Maskin\Maskin\obj\Debug\Maskin.pdb
+C:\Users\李志雄\source\repos\Maskin\Maskin\bin\Debug\Maskin.dll
+C:\Users\李志雄\source\repos\Maskin\Maskin\bin\Debug\Maskin.pdb
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.csprojResolveAssemblyReference.cache
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.MaskinForm.resources
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.csproj.GenerateResource.Cache
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.csproj.CoreCompileInputs.cache
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.dll
+C:\Users\李志雄\source\repos\Maskin\Maskin\obj\Debug\Maskin.pdb
+D:\Projects\Maskin\Maskin\bin\Debug\Maskin.dll
+D:\Projects\Maskin\Maskin\bin\Debug\Maskin.pdb
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.csprojResolveAssemblyReference.cache
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.MaskinForm.resources
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.csproj.GenerateResource.cache
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.csproj.CoreCompileInputs.cache
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.dll
+D:\Projects\Maskin\Maskin\obj\Debug\Maskin.pdb
